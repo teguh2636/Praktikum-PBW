@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Website Pendaftaran</h1>
+    <p>Silakan isi data diri Anda</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Layanan</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="main-container">
+
+    <main class="content">
+        <h2>Formulir Pendaftaran</h2>
+
+        <form>
+
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama lengkap" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Masukkan password" required>
+
+            <label>Jenis Kelamin</label>
+            <div class="radio-group">
+                <label><input type="radio" name="jk"> Laki-laki</label>
+                <label><input type="radio" name="jk"> Perempuan</label>
+            </div>
+
+            <label>Hobi</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Membaca</label>
+                <label><input type="checkbox"> Olahraga</label>
+                <label><input type="checkbox"> Menggambar</label>
+            </div>
+
+            <label>Pilih Kota</label>
+            <select>
+                <option>Bekasi</option>
+                <option>Karawang</option>
+                <option>Jakarta</option>
+                <option>Purwakarta</option>
+            </select>
+
+            <label>Pesan Tambahan</label>
+            <textarea placeholder="Tulis pesan di sini..."></textarea>
+
+            <button type="submit">Kirim Data</button>
+
+        </form>
+    </main>
+
+    <aside class="sidebar">
+        <h3>Informasi</h3>
+        <p>Form ini digunakan untuk pendaftaran sederhana berbasis web.</p>
+        <p>Pastikan data yang Anda isi sudah benar sebelum dikirim.</p>
+    </aside>
+
+</div>
+
+<footer>
+    <p>© 2026 Website Pendaftaran | Dibuat oleh Kharisma Teguh</p>
+</footer>
+
+</body>
+</html>
