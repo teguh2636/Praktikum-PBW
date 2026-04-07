@@ -51,7 +51,6 @@
 
         $diskon = 0;
 
-        // Logika diskon
         if ($biaya >= 5000000) {
             $diskon = 10;
 
