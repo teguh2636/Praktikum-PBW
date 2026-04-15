@@ -16,7 +16,6 @@
     if (isset($_POST['proses'])) {
         $angka = $_POST['angka'];
 
-
         $hasil = ($angka % 2 == 0) ? "GENAP" : "GANJIL";
 
         echo "<h3>Hasil:</h3>";
