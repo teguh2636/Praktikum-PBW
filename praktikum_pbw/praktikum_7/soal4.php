@@ -16,8 +16,7 @@
     if (isset($_POST['proses'])) {
         $angka = $_POST['angka'];
 
-        // Menggunakan Ternary Operator
-        // % 2 == 0 artinya mengecek apakah angka habis dibagi 2
+
         $hasil = ($angka % 2 == 0) ? "GENAP" : "GANJIL";
 
         echo "<h3>Hasil:</h3>";
